@@ -65,5 +65,5 @@ for line in iter(sys.stdin.readline, ""):
 				#print "%s:%s" % (fake_word, line)
 			#else:
 				#print "*** NG : %s:%s" % (fake_word, line)
-			#time.sleep(0.1)
+			#time.sleep(1)
 
