@@ -104,10 +104,10 @@ tickets = get_tickets(fp, rgp, year)
 #sorted_tickets = tickets.sort{ |a, b| a[:to_date] <=> b[:to_date] }
 
 ### make route.
-#routes = make_route(sorted_tickets)
-routes = make_route(tickets)
+#route = make_route(sorted_tickets)
+route = make_route(tickets)
 
 ### print route.
 #print_route_with_date(sorted_tickets)
-#print_route(routes)
-print_tickets(routes)
+#print_route(route)
+print_tickets(route)
